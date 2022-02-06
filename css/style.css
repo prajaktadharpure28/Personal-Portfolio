@@ -1,74 +1,75 @@
 .img-user{
-    border-radius: 50%;
-    height: 250px;
-    box-shadow: rgb(34, 33, 33) 0px 0px 10px 1px;
-    background-color: rgb(242, 244, 247);
-    padding: 5px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px rgb(56,53,53);
-    display: block;
-    height: 200px;
-    width: 200px;
-    z-index: 20;
+  border-radius: 50%;
+  height: 250px;
+  box-shadow: rgb(248, 243, 243) 0px 0px 10px 1px;
+  background-color: rgb(184, 184, 185);
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(56,53,53);
+  display: block;
+  height: 200px;
+  width: 200px;
+  z-index: 20;
 }
 .about-me{
-    font-size: 20px;
+  font-size: 20px;
 }
 .btn-resume{
-    z-index: 50;
+  z-index: 50;
 }
 .ico-social-container{
-    background-color: rgb(242, 244, 247);
-    padding: 5px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px rgb(56,53,53);
-    display: block;
-    height: 60px;
-    width: 60px;
-    z-index: 20;
+  background-color: rgb(242, 244, 247);
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(56,53,53);
+  display: block;
+  height: 60px;
+  width: 60px;
+  z-index: 20;
 }
 .ico-social{
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 body{
-    background: whitesmoke ; 
-    margin: 0;
-    padding: 0;
-    height: 100vh; 
-} 
- #particle_background canvas{
-     position: absolute;
-     z-index: 10;
-    height: 100%;
-    width: 100%;
-    /* background: white; */
-    /* cursor: all-scroll; */
+  background: whitesmoke ; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+#particle_background canvas{
+   position: absolute;
+   z-index: 10;
+  height: 100%;
+  width: 100%;
+  /* background: white; */
+  /* cursor: all-scroll; */
 } 
 .project-container{
-    box-shadow: 5px 5px 8px rgb(68, 64, 64);
-    padding-top: 10px;
-    border-radius: 20px;
-    margin-top: 30px;
-    padding-bottom: 10px;
+  box-shadow: 5px 5px 8px rgb(68, 64, 64);
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding-bottom: 10px;
 }
-    #footer {
-    background-size: cover;
-    color: rgb(8, 8, 8);
-    font-size: 14px;
-    text-align: center;
-    padding: 80px 0;
-    position: relative;
-  }   
-  
-  #footer .social-links {
-    margin: 0 0 40px 0;
-  } 
-    #footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-  }   
-  .zi{
-    position: relative;
-    z-index: 20;
+#footer {
+  background-size: cover;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+}   
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+} 
+  #footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+}   
+ 
+.zi{
+  position: relative;
+  z-index: 20;
 }
